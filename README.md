@@ -8,7 +8,7 @@ Well, this simple project was born out of a particular need in personal projects
 
 ## Quick note about missing states in the database
 
-The database for this project was built based on data provided by [CEP ABERTO](cepaberto.com), which in turn did not include (when >darkmathew< performed the scraping) the following states: **Maranhão, Rio de Janeiro, Rio Grande do Norte, Roraima and Tocantins**. I apologize to you if you need data generated from any of these regions of Brazil. If you get this information and want to share it with the project, please submit a properly tested and verified PR that includes cities and zip codes for those states.
+The database for this project was built based on data provided by [CEP ABERTO](https://www.cepaberto.com/), which in turn did not include (when >darkmathew< performed the scraping) the following states: **Maranhão, Rio de Janeiro, Rio Grande do Norte, Roraima and Tocantins**. I apologize to you if you need data generated from any of these regions of Brazil. If you get this information and want to share it with the project, please submit a properly tested and verified PR that includes cities and zip codes for those states.
 
 
 ## Install from PyPi

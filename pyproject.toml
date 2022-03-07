@@ -1,8 +1,16 @@
 [tool.poetry]
 name = "mkfbr"
-version = "0.1.3"
-description = ""
+version = "0.1.4"
 authors = ["Matheus Santos <78329418+darkmathew@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+description="This simple project only serves as an object of study and/or software testing, do not use it for fraudulent activities."
+homepage = "https://github.com/darkmathew/make_a_fake_brazilian"
+repository = "https://github.com/darkmathew/make_a_fake_brazilian"
+include = [
+    "LICENSE",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
