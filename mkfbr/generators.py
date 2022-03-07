@@ -3,7 +3,7 @@ from random import (
     randint,
     choice
 )
-from models import (
+from mkfbr.models import (
     Cities,
     States,
     CEPS,
@@ -11,6 +11,11 @@ from models import (
 )
 from json import loads
 from datetime import datetime
+from os.path import ( 
+    abspath, 
+    dirname, 
+    join as path_join
+)
 
 
 def generate_rg(output_mode=''):
@@ -62,7 +67,12 @@ def generate_cnpj(output_mode=''):
     
 
 def generate_name(gender_name='R'):
-    with open('./mkfbr/json/content.json', encoding='utf-8', mode='r') as r:
+
+    
+    basedir = abspath(dirname(__file__))
+    content_file = path_join(basedir, 'json', 'content.json')
+
+    with open(content_file, encoding='utf-8', mode='r') as r:
         file_data = loads(r.read())
     
     if gender_name == 'R':

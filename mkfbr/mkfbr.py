@@ -1,4 +1,4 @@
-from generators import (
+from mkfbr.generators import (
     generate_cnpj,
     generate_cpf,
     generate_rg,
