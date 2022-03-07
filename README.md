@@ -49,8 +49,6 @@ Output example:
     'logradouro': ''
 }
 
-  
-
 ```
 
 ## Generate Female Person
@@ -73,7 +71,6 @@ print(brazilian)
 
 ```
 
-  
 
 ## Generate Male Person
 
@@ -96,7 +93,6 @@ print(brazilian)
 ```
 
   
-
 ## Generate CPNJ / RG / CPF with pontuation
 
 
@@ -123,8 +119,6 @@ mkfbr = Make_A_Fake_Brazilian(
 
 brazilian = mkfbr.get_brazilian()
 
-  
-
 print(brazilian)
 
 ```
@@ -136,7 +130,6 @@ Output example:
 ```
 
 {
-
     'name': 'Eros de Assuncao',
 
     'age': 66,
@@ -162,7 +155,5 @@ Output example:
     'logradouro': ''
 
 }
-
-  
 
 ```
