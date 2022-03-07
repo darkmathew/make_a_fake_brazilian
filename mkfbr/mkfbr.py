@@ -41,7 +41,7 @@ class Make_A_Fake_Brazilian:
 
         
         self.birthday, self.age  = generate_birthday_date()        
-        self.name = generate_name()
+        self.name = generate_name(gender_name=self.gender_name)
         self.location_data = generate_person_address()
         
         self.address = self.location_data['address']
