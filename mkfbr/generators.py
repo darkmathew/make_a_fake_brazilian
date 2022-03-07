@@ -87,8 +87,9 @@ def generate_name(gender_name='R'):
 
     surname_list = file_data['content']['surnames']  
     surname = choice(surname_list)
+    last_name = choice(surname_list)
 
-    full_name = f'{name} {surname}'
+    full_name = f'{name} {surname} {last_name}'
     return full_name
 
 
