@@ -17,11 +17,11 @@ The database for this project was built based on data provided by [CEP ABERTO](h
 
   
 
-**API URL** [click here](http://mkfbr-api.herokuapp.com/api/)
+**API URL** [click here](https://mkfbr-api.herokuapp.com/api/)
 
   
 
-**MKFBR Website** [click here](http://mkfbr-api.herokuapp.com/site/)
+**MKFBR Website** [click here](https://mkfbr-api.herokuapp.com/site/)
  
 
 ## Install from PyPi
